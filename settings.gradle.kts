@@ -32,5 +32,7 @@ include(
     ":data:repository",
     ":data:repository",
     ":data:datasources",
-    ":data:mappers"
+    ":data:mappers",
+    ":data:di"
 )
+

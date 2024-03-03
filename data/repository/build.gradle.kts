@@ -9,6 +9,9 @@ java {
 }
 dependencies {
     implementation (project(":data:datasources"))
+    implementation (project(":data:models"))
     implementation (project(":data:mappers"))
-    implementation (project(":domain"))
+    implementation (project(":domain:models"))
+
+    implementation(libs.bundles.data.repository)
 }

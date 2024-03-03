@@ -9,5 +9,5 @@ java {
 }
 dependencies {
     implementation (project(":data:models"))
-    implementation (project(":domain"))
+    implementation (project(":domain:models"))
 }

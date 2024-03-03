@@ -13,4 +13,5 @@ dependencies {
     implementation (project(":data:mappers"))
     implementation (project(":data:models"))
     implementation (project(":data:repository"))
+    implementation(libs.bundles.data)
 }
