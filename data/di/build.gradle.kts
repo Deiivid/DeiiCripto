@@ -11,6 +11,5 @@ java {
 dependencies{
     implementation(libs.bundles.data.di)
     implementation(project(":data:datasources"))
-    implementation (project(":data:repository"))
-    implementation (project(":data:repository"))
+    implementation(project(":data:repository"))
 }

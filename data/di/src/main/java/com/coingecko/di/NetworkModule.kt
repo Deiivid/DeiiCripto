@@ -3,6 +3,7 @@ package com.coingecko.di
 import com.coingecko.datasources.Constants.BASE_URL
 import com.coingecko.datasources.CoinGeckoService
 import com.coingecko.repository.coins.coins.CoinRepository
+import com.coingecko.repository.coins.coins.datastore.RemoteCoinDataStoreImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

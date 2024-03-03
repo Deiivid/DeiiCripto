@@ -5,7 +5,7 @@ import com.coingecko.mappers.coin.toDomain
 import com.coingecko.models.coins.Coin
 import com.coingecko.repository.coins.coins.CoinRepository
 
-internal class RemoteCoinDataStoreImpl(
+class RemoteCoinDataStoreImpl(
     private val coinGeckoService: CoinGeckoService
 ) : CoinRepository {
     override suspend fun getAllCoins(
